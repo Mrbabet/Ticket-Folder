@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  perspective: 700px;
+  font-family: Roboto-Regular, HelveticaNeue, Arial, sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.ticket-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+}
+.ticket-menu {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.information {
+  margin-left: auto;
+}
